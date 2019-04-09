@@ -27,7 +27,7 @@ public class StepDefinationOne {
 		driver=new ChromeDriver();
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		driver.manage().window().maximize();
-		driver.get("https://swiftmtransferapp-dev.azurewebsites.net/");
+		driver.get("https://swiftmtransferjavaui.azurewebsites.net/");
 		driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
 		System.out.println("Visited Home page:"+driver.getCurrentUrl());
 	}
